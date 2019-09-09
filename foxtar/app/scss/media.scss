@@ -1,0 +1,118 @@
+@import "vars";
+
+@media (max-width: 1301px){
+  .lets__check__item__title {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .lets__check__item__title-description {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 1199px){
+  .lets__check__item__title {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .lets__check__item__price{
+    padding-top: 0;
+    margin-bottom: 15px;
+  }
+  .lets__check__item__title-description {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .lets__check__item__title-description-name{
+    padding-bottom: 5px;
+  }
+  .lets__check__item__title-description-name span {
+    padding-left: 0px;
+
+  }
+  .lets__check__stars {
+    display: block;
+    ul{
+      padding-bottom: 5px;
+    }
+
+  }
+  .lets__check__stars .lets__check__stars__number {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 988px){
+ .menu{
+   ul{
+     text-align: center;
+   }
+   a{
+     line-height: 40px;
+   }
+ }
+ .header__phone{
+   display: none;
+ }
+}
+@media (max-width: 760px) {
+  .header__btn .header__logout {
+    margin-left: 9px;
+  }
+  .profile .profile__name:after {
+    padding-left: 10px;
+  }
+  .profile img {
+    margin-left: 0px;
+    margin-right: 6px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 596px){
+  .lets__check__pagination__item{
+    & + .lets__check__pagination__item{
+      padding-top: 5px;
+    }
+  }
+}
+@media (max-width: 575px){
+  .lets__check__item-item{
+    display: grid;
+  }
+}
+@media (max-width: 548px){
+  .header__item-basket{
+    display: none;
+  }
+}
+@media (max-width: 548px){
+  .header__navigation li+li {
+    padding-left: 13px;
+  }
+  .breadcrumbs {
+    padding: 20px 0px 20px;
+  }
+}
+@media (max-width: 409px){
+  .profile__name,
+  .profile__money{
+   display: none;
+ }
+}
+@media (max-width: 372px){
+  .lets__check__btn button+button {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 770px) {
+  .search__title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 533px) {
+  .search__title {
+    font-size: 18px;
+    text-align: center;
+  }
+}
